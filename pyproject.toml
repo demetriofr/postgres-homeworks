@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "postgres-homeworks"
+version = "0.1.0"
+description = "PostgerSQL homeworks"
+authors = ["Dmitriy Frolov <dmitriy.a.frolov@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+psycopg-binary = "^3.1.13"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
