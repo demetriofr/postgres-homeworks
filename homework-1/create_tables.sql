@@ -20,7 +20,7 @@ CREATE TABLE orders
 (
 	order_id integer PRIMARY KEY,
 	customer_id varchar(5) REFERENCES customers(customer_id),
-	employee_id smallserial REFERENCES employees(employee_id),
+	employee_id integer REFERENCES employees(employee_id),
 	order_date date NOT NULL,
 	ship_city varchar(100) NOT NULL
 );
