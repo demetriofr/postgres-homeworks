@@ -6,7 +6,7 @@ import psycopg2
 from dotenv import load_dotenv
 
 
-def variables_for_convert_data_from_csv_to_sql():
+def variables_for_convert_data_from_csv_to_sql() -> dict:
     """Get variables for converting data from csv to SQL."""
 
     load_dotenv()
